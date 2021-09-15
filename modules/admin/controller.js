@@ -6,6 +6,7 @@ exports.getInventory = getInventory;
 exports.addInventory = addInventory;
 exports.updateInventory = updateInventory;
 exports.deleteInventory = deleteInventory;
+console.log("================= controller admin===========");
 
 async function getAdminDetails(req, res){
     const data = req.body;

@@ -5,7 +5,7 @@ exports.getUserDetail = getUserDetail;
 exports.addUserDetail = addUserDetail;
 exports.updateUserDetail = updateUserDetail;
 exports.getResetLink = getResetLink;
-
+console.log("================= controller Users===========");
 async function getUserDetail(req, res){
     const data = req.body;
     db_name = "testAdmin";
@@ -60,6 +60,7 @@ async function addUserDetail(req, res){
 
 
 async function getItems(req, res){
+    console.log("============ getItems called =================");
     const data = req.body;
     db_name = "testAdmin";
     collection_name = "inventory";
