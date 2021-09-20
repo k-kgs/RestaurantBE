@@ -1,0 +1,12 @@
+{
+    "PORT":5000,
+    "databaseCreds":{
+        "host": "#######",
+        "user": "#######",
+        "password": "#######"
+    },
+    "mailCreds":{
+        "user":"##########",
+        "passkey":"#######"
+    }
+}
